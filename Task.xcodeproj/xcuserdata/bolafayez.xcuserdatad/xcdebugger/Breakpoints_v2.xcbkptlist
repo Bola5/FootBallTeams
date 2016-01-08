@@ -95,7 +95,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "149"
             endingLineNumber = "149"
-            landmarkName = "methodGethomeTeamANDawayHome(url:flag:postCompleted:)"
+            landmarkName = "methodGetfixtures(url:postCompleted:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -111,7 +111,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "145"
             endingLineNumber = "145"
-            landmarkName = "methodGethomeTeamANDawayHome(url:flag:postCompleted:)"
+            landmarkName = "methodGetfixtures(url:postCompleted:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
