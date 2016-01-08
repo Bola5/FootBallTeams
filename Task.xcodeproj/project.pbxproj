@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		83A34C151C3D9BBF00186F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C141C3D9BBF00186F38 /* AppDelegate.swift */; };
 		83A34C181C3D9BBF00186F38 /* Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C161C3D9BBF00186F38 /* Task.xcdatamodeld */; };
-		83A34C1A1C3D9BBF00186F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C191C3D9BBF00186F38 /* ViewController.swift */; };
+		83A34C1A1C3D9BBF00186F38 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C191C3D9BBF00186F38 /* TeamsViewController.swift */; };
 		83A34C1D1C3D9BBF00186F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A34C1B1C3D9BBF00186F38 /* Main.storyboard */; };
 		83A34C1F1C3D9BBF00186F38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A34C1E1C3D9BBF00186F38 /* Images.xcassets */; };
 		83A34C221C3D9BBF00186F38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A34C201C3D9BBF00186F38 /* LaunchScreen.xib */; };
 		83A34C2E1C3D9BBF00186F38 /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C2D1C3D9BBF00186F38 /* TaskTests.swift */; };
+		83A34C381C3D9EFE00186F38 /* CheckNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C371C3D9EFE00186F38 /* CheckNetwork.swift */; };
+		83A34C3C1C3DA78300186F38 /* CustomCellTableTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C3B1C3DA78300186F38 /* CustomCellTableTeams.swift */; };
+		83A34C711C3DC3F100186F38 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C701C3DC3F100186F38 /* TeamViewController.swift */; };
+		83A34C731C40245A00186F38 /* CustomCellTableTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A34C721C40245A00186F38 /* CustomCellTableTeam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +35,17 @@
 		83A34C131C3D9BBF00186F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A34C141C3D9BBF00186F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A34C171C3D9BBF00186F38 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
-		83A34C191C3D9BBF00186F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83A34C191C3D9BBF00186F38 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		83A34C1C1C3D9BBF00186F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83A34C1E1C3D9BBF00186F38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83A34C211C3D9BBF00186F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83A34C271C3D9BBF00186F38 /* TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A34C2C1C3D9BBF00186F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A34C2D1C3D9BBF00186F38 /* TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
+		83A34C371C3D9EFE00186F38 /* CheckNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckNetwork.swift; sourceTree = "<group>"; };
+		83A34C3B1C3DA78300186F38 /* CustomCellTableTeams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableTeams.swift; sourceTree = "<group>"; };
+		83A34C701C3DC3F100186F38 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		83A34C721C40245A00186F38 /* CustomCellTableTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +87,10 @@
 		83A34C111C3D9BBF00186F38 /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				83A34C6F1C3DC3DC00186F38 /* Team */,
+				83A34C3D1C3DA7F300186F38 /* Teams */,
 				83A34C141C3D9BBF00186F38 /* AppDelegate.swift */,
-				83A34C191C3D9BBF00186F38 /* ViewController.swift */,
+				83A34C371C3D9EFE00186F38 /* CheckNetwork.swift */,
 				83A34C1B1C3D9BBF00186F38 /* Main.storyboard */,
 				83A34C1E1C3D9BBF00186F38 /* Images.xcassets */,
 				83A34C201C3D9BBF00186F38 /* LaunchScreen.xib */,
@@ -113,6 +123,24 @@
 				83A34C2C1C3D9BBF00186F38 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A34C3D1C3DA7F300186F38 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				83A34C191C3D9BBF00186F38 /* TeamsViewController.swift */,
+				83A34C3B1C3DA78300186F38 /* CustomCellTableTeams.swift */,
+			);
+			name = Teams;
+			sourceTree = "<group>";
+		};
+		83A34C6F1C3DC3DC00186F38 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				83A34C701C3DC3F100186F38 /* TeamViewController.swift */,
+				83A34C721C40245A00186F38 /* CustomCellTableTeam.swift */,
+			);
+			name = Team;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A34C1A1C3D9BBF00186F38 /* ViewController.swift in Sources */,
+				83A34C1A1C3D9BBF00186F38 /* TeamsViewController.swift in Sources */,
+				83A34C731C40245A00186F38 /* CustomCellTableTeam.swift in Sources */,
+				83A34C711C3DC3F100186F38 /* TeamViewController.swift in Sources */,
+				83A34C381C3D9EFE00186F38 /* CheckNetwork.swift in Sources */,
 				83A34C181C3D9BBF00186F38 /* Task.xcdatamodeld in Sources */,
 				83A34C151C3D9BBF00186F38 /* AppDelegate.swift in Sources */,
+				83A34C3C1C3DA78300186F38 /* CustomCellTableTeams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
